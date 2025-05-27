@@ -2,24 +2,32 @@
 public class RectIf extends MyFrame{
 	public void run()
 	{        
-		setColor(0,128,0);
+		//setColor(0,128,0);
 		
-		int x=40; int y=50;
+		int x=40; 
 		
-		for(int i=0; i<10;i++)
+		int z=0;
+		
+		for(int i=0; i<20;i++)
 		{
-			if(i!=0) 
+			if(i<=10) 
 			{
-				fillRect(x,50,10,y);
+				fillRect(x,50,10,80);
+				setColor(z,z,z);
+				
+				z+=20;
 			}
-			else
+			else if(i>=11)
 			{
-				fillRect(x,50,10,50);
+				fillRect(x,50,10,80);
+				setColor(z,z,z);
+				
+				z-=20;
 			}
 			
 			x+=20;
 			
-			y+=20;
+			
 			
 		}
 	}
