@@ -10,7 +10,7 @@ public class RectIf extends MyFrame{
 		{
 			if(i!=0) 
 			{
-				fillRect(x,y,10,50);
+				fillRect(x,50,10,y);
 			}
 			else
 			{
