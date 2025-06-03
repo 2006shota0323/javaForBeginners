@@ -17,6 +17,7 @@ public class DisplayFaceVector extends MyFrame{
 				faces.get(j).draw(this);
 				faces.get(j).move();
 			}
+			
 			sleep(0.1);
 		}
 		
