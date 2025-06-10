@@ -7,6 +7,10 @@ public class DisplayCarTrain extends MyFrame {
 		
 		Train train1 =new Train(30,150,3,0);
 		train1.draw(this);
+		
+		Truck truck1 =new Truck(50,180,3,0);
+		truck1.draw(this);
+		
 	}
 
 }

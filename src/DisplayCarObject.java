@@ -8,7 +8,7 @@ public class DisplayCarObject extends MyFrame {
 	   
 	   car cars[]=new car[5];
 	   
-	   cars[0]=new car(x,y,z,5);
+	    cars[0]=new car(x,y,z,5);
 		
 		cars[1]=new car(x+70,y+140,z+1,5);
 		
@@ -31,5 +31,7 @@ public class DisplayCarObject extends MyFrame {
 			
 			sleep(0.1);
 		}
+      
+		
    }
 }

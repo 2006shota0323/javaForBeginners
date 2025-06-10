@@ -11,9 +11,17 @@ public class Vehicle {
 		this.vy=vy;
 	}
 	
+	
+	
+	
 	public void move()
 	{
 		x+=vx;
 		y+=vy;
+	}
+	
+	public void draw(MyFrame f) 
+	{
+		
 	}
 }
