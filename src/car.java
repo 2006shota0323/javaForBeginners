@@ -30,15 +30,29 @@ public class car extends Vehicle implements KeyListener {
 	@Override
 	public void keyPressed(KeyEvent e) {
 		// TODO 自動生成されたメソッド・スタブ
-		System.out.println("キーが押されました");
-		vx=5;
+		if(e.getKeyCode()==KeyEvent.VK_LEFT)
+		{
+			vx=-5;
+		}
+		if(e.getKeyCode()==KeyEvent.VK_RIGHT)
+		{
+			vx=5;
+		}
+		
 	}
 
 	//押されていたキーが離されたとき
 	@Override
 	public void keyReleased(KeyEvent e) {
 		// TODO 自動生成されたメソッド・スタブ
-		
+		if(e.getKeyCode()==KeyEvent.VK_LEFT)
+		{
+			vx=0;
+		}
+		if(e.getKeyCode()==KeyEvent.VK_RIGHT)
+		{
+			vx=0;
+		}
 	}
 	
 	
