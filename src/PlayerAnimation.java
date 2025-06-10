@@ -2,7 +2,9 @@
 public class PlayerAnimation extends MyFrame {
 	public void run()
 	{
-		car player=new car(100,200,3,0);
+		car player=new car(100,200,0,0);
+		
+		addKeyListener(player);
 		
 		while(true)
 		{
